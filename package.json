@@ -1,0 +1,43 @@
+{
+  "name": "machinepack-naturalpath",
+  "version": "0.1.0",
+  "description": "Convert Natural Language into a file/directory path",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Natural Path",
+    "machines",
+    "machinepack"
+  ],
+  "author": {
+    "name": "Glavin Wiechert",
+    "email": "glavin.wiechert@gmail.com",
+    "url": "https://github.com/Glavin001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glavin001/machinepack-naturalpath"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "fuzzaldrin": "^2.1.0",
+    "lodash": "^3.10.1",
+    "machine": "^10.0.0",
+    "machinepack-fs": "^7.0.0",
+    "machinepack-nlp": "^0.5.0",
+    "machinepack-paths": "^2.0.3"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "Natural Path",
+    "machineDir": "machines/",
+    "machines": [
+      "convert",
+      "resolve"
+    ]
+  }
+}

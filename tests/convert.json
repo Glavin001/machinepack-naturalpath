@@ -1,0 +1,28 @@
+{
+  "machine": "convert",
+  "expectations": [{
+    "using": {
+      "string": "Into Google Drive into School into 2015 2016 into Cryptography"
+    },
+    "outcome": "success",
+    "returns": "/Users/glavin/Google Drive/School/2015-2016/CSCI 4423 - Cryptography"
+  }, {
+    "using": {
+      "string": "Go to Google Drive go into School go into 2015 2016 and find Cryptography folder"
+    },
+    "outcome": "success",
+    "returns": "/Users/glavin/Google Drive/School/2015-2016/CSCI 4423 - Cryptography"
+  }, {
+    "using": {
+      "string": "Cryptography in 2015 2016 in School in Google Drive"
+    },
+    "outcome": "success",
+    "returns": "/Users/glavin/Google Drive/School/2015-2016/CSCI 4423 - Cryptography"
+  }, {
+    "using": {
+      "string": "Cryptography under 2015 2016 under School under Google Drive"
+    },
+    "outcome": "success",
+    "returns": "/Users/glavin/Google Drive/School/2015-2016/CSCI 4423 - Cryptography"
+  }]
+}

@@ -1,0 +1,10 @@
+{
+  "machine": "resolve",
+  "expectations": [{
+    "using": {
+      "names": ["Google Drive","School","2015 2016","Cryptography"]
+    },
+    "outcome": "success",
+    "returns": "/Users/glavin/Google Drive/School/2015-2016/CSCI 4423 - Cryptography"
+  }]
+}
